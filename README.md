@@ -23,11 +23,11 @@ application/  conf/  index.php  readme.txt
 
 #### 开启namespace（推荐）
 
-`./open_namespace.sh`
+`sh open_namespace.sh`
 
 #### 关闭namespace
 
-`./close_namespace.sh`
+`sh close_namespace.sh`
 
 PS: 如果想用比较全一点脚手架[含常用类库]来开发项目，可以参考：
 

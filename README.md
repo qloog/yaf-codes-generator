@@ -1,5 +1,7 @@
 ## Yaf Codes Generator
 
+用于生成比较干净的yaf框架代码。
+
 ### Usage
 
 例如我要生成一个blog项目代码，执行如下命令：
@@ -17,5 +19,9 @@ application/  conf/  index.php  readme.txt
 ```
 
 这样就可以用此目录开发具体的项目了。
+
+PS: 如果想用比较全一点脚手架[含常用类库]来开发项目，可以参考：
+
+https://github.com/qloog/yaf-skeleton
 
 Enjoy it.

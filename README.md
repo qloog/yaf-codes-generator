@@ -37,7 +37,7 @@ php -S localhost:8080 index.php
 
 ```
 cd output/Demo
-sh ../../close_namespace.sh
+sh ../../open_namespace.sh
 ```
 
 #### 关闭namespace

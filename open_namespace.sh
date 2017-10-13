@@ -1,6 +1,12 @@
 #!/bin/bash
 
 for folder in "public" "application"; do
+
+    if [ ! -d "$folder" ]; then
+        continue
+    fi
+
+    find ./ -name '*.php' | xargs sed -i "" 's/Yaf_Application/Yaf\\Application/g'
     find $folder -name '*.php' | xargs sed -i "" 's/Yaf_Application/Yaf\\Application/g'
     find $folder -name '*.php' | xargs sed -i "" 's/Yaf_Bootstrap/Yaf\\Bootstrap/g'
     find $folder -name '*.php' | xargs sed -i "" 's/Yaf_Loader/Yaf\\Loader/g'

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for folder in "public" "application"; do
+for folder in "application"; do
     find $folder -name '*.php' | xargs sed -i "" 's/Yaf_Application/Yaf\\Application/g'
     find $folder -name '*.php' | xargs sed -i "" 's/Yaf_Bootstrap/Yaf\\Bootstrap/g'
     find $folder -name '*.php' | xargs sed -i "" 's/Yaf_Loader/Yaf\\Loader/g'

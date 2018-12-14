@@ -1,3 +1,6 @@
+ ## v1.0.2 - 2018-12-14
+  - 修复 open_namespace 和 close_namespace 系统兼容性
+
  ## v1.0.1 - 2017-10-13
   - 修改tpl的默认说明
   - 完善readme的使用说明
